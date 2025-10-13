@@ -65,11 +65,11 @@ export class Agent {
             else
                 this.bot.chat(`/skin clear`);
         });
-
+		const spawnTimeoutDuration = settings.spawn_timeout;
         const spawnTimeout = setTimeout(() => {
-            console.error('Bot has not spawned after 30 seconds. Exiting.');
+            console.error(`Bot has not spawned after ${spawnTimeoutDuration} seconds. Exiting.`);
             process.exit(0);
-        }, 30000);
+        }, spawnTimeoutDuration * 1000);
         this.bot.once('spawn', async () => {
             try {
                 clearTimeout(spawnTimeout);

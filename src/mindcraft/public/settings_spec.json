@@ -131,5 +131,10 @@
         "type": "object",
         "description": "The task object to give the agent on start. If null, the agent will not have a task.",
         "default": null
+    },
+    "spawn_timeout": {
+        "type": "number",
+        "description": "Number of seconds allowed for the bot to spawn before throwing an error. Increase when spawning takes a while.",
+        "default": 30
     }
 }
