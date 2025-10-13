@@ -87,14 +87,13 @@ export class Gemini {
         try {
             console.log('Awaiting Google API vision response...');
             const result = await this.genAI.models.generateContent({
+                model: this.model_name,
                 contents: contents,
                 safetySettings: this.safetySettings,
-                systemInstruction: systemMessage,
-                model: this.model,
-                config: {
-                    systemInstruction: systemMessage,
+                generationConfig: {
                     ...(this.params || {})
-                }
+                },
+                systemInstruction: systemMessage
             });
             res = await result.text;
             console.log('Received.');
