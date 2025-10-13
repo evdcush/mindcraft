@@ -56,6 +56,8 @@ const settings = {
     "block_place_delay": 0, // delay between placing blocks (ms) if using newAction. helps avoid bot being kicked by anti-cheat mechanisms on servers.
   
     "log_all_prompts": false, // log ALL prompts to file
+
+    "bot_spawn_timeout": 30, // how long to wait (in seconds) for the bot to spawn on the server. increase this value if you are using microsoft auth and it takes a while to log in.
 }
 
 export default settings;
