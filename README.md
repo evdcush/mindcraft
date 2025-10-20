@@ -1,9 +1,20 @@
-# Mindcraft 🧠⛏️
+<h1 align="center">mindcraft</h1>
+<p align="center">🧠⛏️</p>
+<h1 align="center">
+  <a href="https://trendshift.io/repositories/9163" target="_blank"><img src="https://trendshift.io/api/badge/repositories/9163" alt="kolbytn%2Fmindcraft | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+</h1>
 
-Crafting minds for Minecraft with LLMs and [Mineflayer!](https://prismarinejs.github.io/mineflayer/#/)
+<p align="center">Crafting minds for Minecraft with LLMs and <a href="https://prismarinejs.github.io/mineflayer/#/">Mineflayer!</a></p>
 
-[FAQ](https://github.com/mindcraft-bots/mindcraft/blob/main/FAQ.md) | [Discord Support](https://discord.gg/mp73p35dzC) | [Video Tutorial](https://www.youtube.com/watch?v=gRotoL8P8D8) | [Blog Post](https://kolbynottingham.com/mindcraft/) | [Contributor TODO](https://github.com/users/kolbytn/projects/1) | [Paper Website](https://mindcraft-minecollab.github.io/index.html) | [MineCollab](https://github.com/mindcraft-bots/mindcraft/blob/main/minecollab.md) 
-
+<p align="center">
+  <a href="https://github.com/mindcraft-bots/mindcraft/blob/main/FAQ.md">FAQ</a> | 
+  <a href="https://discord.gg/mp73p35dzC">Discord Support</a> | 
+  <a href="https://www.youtube.com/watch?v=gRotoL8P8D8">Video Tutorial</a> | 
+  <a href="https://kolbynottingham.com/mindcraft/">Blog Post</a> | 
+  <a href="https://github.com/users/kolbytn/projects/1">Contributor TODO</a> | 
+  <a href="https://mindcraft-minecollab.github.io/index.html">Paper Website</a> | 
+  <a href="https://github.com/mindcraft-bots/mindcraft/blob/main/minecollab.md">MineCollab</a>
+</p>
 
 > [!Caution]
 Do not connect this bot to public servers with coding enabled. This project allows an LLM to write/execute code on your computer. The code is sandboxed, but still vulnerable to injection attacks. Code writing is disabled by default, you can enable it by setting `allow_insecure_coding` to `true` in `settings.js`. Ye be warned.
